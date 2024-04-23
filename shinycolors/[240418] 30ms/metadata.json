@@ -1,0 +1,15 @@
+{
+    "source": "https://www.youtube.com/watch?v=xzQytY-xR5g",
+    "transcribe": {
+        "model": "whisper large-v3",
+        "parameters": {
+            "initial_prompt": "This is the audio from the radio of game 'アイドルマスター　シャイニーカラーズ' and relating live events. This context may contains person names like 1)風野ひおり,2)櫻木真乃,3)八宮めぐる,4)関根瞳（せきねひとみ）,5)近藤玲奈,6)峯田茉優（みねだまゆ）",
+            "chunk_size": 2,
+            "vad_onset": 0.4,
+            "vad_offset": 0.1
+        }
+    },
+    "translate": {
+        "model": "gemini-pro"
+    }
+}
